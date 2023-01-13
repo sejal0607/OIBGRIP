@@ -1,0 +1,82 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.main {
+    background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    padding: 15px;
+    
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#text-input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#add-button {
+    padding: 7px 12px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+
+.todos-container {
+    overflow-y: scroll;
+}
+
+.todo-item-container {
+    display: flex;
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+#todo-text {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    user-select: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: #662d91;
+}
+
+#edit-button,
+#delete-button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
